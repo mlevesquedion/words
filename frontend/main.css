@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 20px;
+}
+
+.pageBar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 50px auto;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+    flex: 0 0 500px;
+}
+
+li {
+    font-size: 200%;
+    list-style: none;
+}
+
+.null {
+    font-size: 200%;
+    margin-top: 50px;
+}
+
+.field {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.field input {
+    margin: 20px 0;
+}
